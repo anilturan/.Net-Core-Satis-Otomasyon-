@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  abc.northwind.mvcwebui:
+    image: abc.northwind.mvcwebui
+    build:
+      context: ./Abc.Northwind.MvcWebUI
+      dockerfile: Dockerfile
